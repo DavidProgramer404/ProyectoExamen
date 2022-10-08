@@ -1,0 +1,50 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: Arial;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+th {
+    color: rgb(255, 0, 0);
+    font-weight: 50px;
+}
+
+td {
+    color: white;
+    font-weight: normal;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+
+thead {
+    height: 50px;
+}
+
+tbody {
+    color: white;
+}
+
+
+/* Codigos css https://divesp.com/personalizar-titulos-plantilla-divi/ */
+
+
+/* wallpapers https://unsplash.com/es/fotos/xrVDYZRGdw4 */
