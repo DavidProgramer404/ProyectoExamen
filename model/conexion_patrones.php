@@ -4,7 +4,7 @@ class conexion{
     private $con;
 
     public function __construct(){
-        $this->con = new mysqli('localhost', 'root','','examen_login_register_db');
+        $this->con = new mysqli('localhost', 'root','','login_register_db');
     }
 
     public function getUsers(){

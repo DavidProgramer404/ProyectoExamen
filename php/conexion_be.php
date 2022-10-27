@@ -1,6 +1,6 @@
 <?php
 
-    $conexion = mysqli_connect("localhost", "root", "", "examen_login_register_db");
+    $conexion = mysqli_connect("localhost", "root", "", "login_register_db");
     
 
 ?>

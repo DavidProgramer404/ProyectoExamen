@@ -7,6 +7,7 @@ class PDF extends FPDF
 function Header()
 {
     
+    $this->Image('images/logo-esucomex.jpg',10,8,33);
     // Arial bold 15
     $this->SetFont('Arial','B',18);
     // Movernos a la derecha

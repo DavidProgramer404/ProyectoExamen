@@ -1,4 +1,10 @@
+<?php 
+session_start();
+if(empty($_SESSION["usuario"])){
+    header('Location: login.php');
+}
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,19 +13,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-    <link rel="stylesheet" type="text/css" href="css/EstiloInicio.css"> 
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> 
     
 
 </head>
 
 <body>
-    
 
-    <div class="hero">
-              <h1 id="clockDisplay" class="clock" onload="showTime"></h1>
+    <header class="bg_animate">
+        <div class="header_nav">
+            <div class="contenedor">
+                <h1>Efecto Burbuja</h1>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
         </div>
-        
-    </div>    
+
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <h2>Necesitas ayuda <br> con tu PC?</h2>
+                <a href="#" class="llamanos">Llamanos ya!</a>
+            </secrion>
+            <div class="banner_img">
+                <img src="./images/laptop-support.png" alt="">
+            </div>
+        </section>
+
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
 
 
 
@@ -28,7 +62,7 @@
             <li>
                 <a href="#">
                     <span class="icono"><ion-icon name="people-circle-outline"></ion-icon></span>
-                    <span class="titulo">Bienvenido usuario!!</span>
+                    <span class="titulo">Bienvenido usuario</span>
                 </a>
             </li>
             <li>
@@ -46,7 +80,7 @@
             <li>
                 <a href="contacto/contacto.php">
                     <span class="icono"><ion-icon name="help-outline"></ion-icon></span>
-                    <span class="titulo">Ayuda tecnica</span>
+                    <span class="titulo">Ayuda técnica</span>
                 </a>
             </li>
             <li>

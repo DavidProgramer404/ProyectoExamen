@@ -39,7 +39,7 @@
                 <img src="assets/david.jpeg" class="instructor__img">
                 <h2 class="instructor__name">David Mauricio Valdes Leiva</h2>
                 <p class="instructor__tag">Desarrollador Web (Analista programador)</p>
-                <p class="instructor__paragraph">Holaa 🖐,En esta pagina web tendran informacion respecto a mis conocimientos y experiencia como desarrollador web ¡No duden en contactarme!</p>
+                <p class="instructor__paragraph">Hola🖐 En esta página web tendrás información respecto a mis conocimientos y experiencia como desarrollador web. ¡No dudes en contactarme!</p>
             </div>
 
         </section>
@@ -78,7 +78,7 @@
                             <img src="assets/bxs-grid.svg" class="card__picture">
                         </figure>
                         <h3 class="card__title">Base de datos</h3>
-                        <p class="card__paragraph">Las principales características de una base de datos son las siguientes: Los datos almacenados tienen independencia física y lógica. Garantizan la integridad de los datos. Son sistema de almacenamiento que contribuyen a reducir
+                        <p class="card__paragraph">Las principales características de una base de datos son las siguientes: Los datos almacenados tienen independencia física y lógica, garantizando la integridad de los datos. Son sistema de almacenamiento que contribuyen a reducir
                             la redundancia al mínimo.</p>
                     </div>
 
@@ -96,7 +96,7 @@
                         </figure>
                         <h3 class="card__title">JS</h3>
                         <p class="card__paragraph">JavaScript permite el anidamiento de funciones y otorga a la función interna acceso completo a todas las variables y funciones definidas dentro de la función externa (y todas las demás variables y funciones a las que la función
-                            externa tiene acceso</p>
+                            externa tiene acceso.</p>
                     </div>
 
                     <div class="card__item">
@@ -104,7 +104,7 @@
                             <img src="assets/bxl-css3.svg" class="card__picture">
                         </figure>
                         <h3 class="card__title">Html</h3>
-                        <p class="card__paragraph">HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto”</p>
+                        <p class="card__paragraph">HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir lenguaje de Marcas de Hipertexto.</p>
                     </div>
 
                 </div>
@@ -130,8 +130,8 @@
 
             <div class="footer__contact">
                 <div class="footer__texts">
-                    <h2 class="title">¿Tienes algunda duda?</h2>
-                    <p class="footer__copy">Si tienes alguna duda, puedes contactarme en cualquiera de mis redes sociales o vía correo electrónico</p>
+                    <h2 class="title">¿Tienes alguna duda?</h2>
+                    <p class="footer__copy">Si tienes alguna duda, puedes contactarme en cualquiera de mis redes sociales o vía correo electrónico.</p>
 
                     <div class="footer__social">
                         <a href="#" class="footer__link">

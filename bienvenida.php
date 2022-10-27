@@ -1,4 +1,12 @@
-<?php include('php/header.php') ?>
+<?php include('php/header.php')?>
+
+<?php
+session_start();
+if(empty($_SESSION['usuario'])){
+    header('Location: bienvenida.php');
+}
+?>
+
 
 <?php
     include_once "model/conexion_crud_be.php";
@@ -145,7 +153,7 @@
                         <input type="number" class="form-control" name="txtEdad" autofocus required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Cargo:: </label>
+                        <label class="form-label">Cargo: </label>
                         <input type="text" class="form-control" name="txtCargo" autofocus required>
                     </div>
                     <div class="mb-3">

@@ -28,7 +28,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>login</title>
+   <title>Inicio de perfiles</title>
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
 <div class="form-container">
 
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>Inicia sesión </h3>
+      <h3>Inicia tu perfil </h3>
       <?php
       if(isset($message)){
          foreach($message as $message){
@@ -50,8 +50,8 @@ if(isset($_POST['submit'])){
       <input type="email" name="email" placeholder="Ingrese correo electrónico" class="box" required>
       <input type="password" name="password" placeholder="Ingrese clave" class="box" required>
       <input type="submit" name="submit" value="Ingrese ahora" class="btn">
-      <p>no tienes una cuenta? <a href="register.php">Registratate</a></p>
-      <p>Volver al  <a href="../inicio.php">inicio</a></p>
+      <p>No tienes una cuenta? <a href="register.php">Registratate</a></p>
+      <p>Volver al  <a href="../inicio.php">Inicio</a></p>
    </form>
 
 </div>

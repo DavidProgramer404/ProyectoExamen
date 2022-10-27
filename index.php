@@ -27,8 +27,8 @@
                 </div>
                 <div class="caja__trasera-register">
                     <h3>¿Aún no tienes una cuenta?</h3>
-                    <p>Registrate para que puedas iniciar Sesión</p>
-                    <button id="btn__registrarse">registrarse</button>
+                    <p>Registrate para que puedas iniciar sesión</p>
+                    <button id="btn__registrarse">Registrarse</button>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@
                 <form action="php/login_usuario_be.php" method="post" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" placeholder="Correo electrónico" name="correo">
-                    <input type="password" placeholder="contrasenia" name="contrasenia">
+                    <input type="password" placeholder="Contraseña" name="contrasenia">
                     <button>Entrar</button>
 
                 </form>
@@ -46,7 +46,7 @@
 
                 <form action="php/registro_usuario_be.php" method="post" class="formulario__register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre Completo" name="nombre_completo">  
+                    <input type="text" placeholder="Nombre completo" name="nombre_completo">  
                     <input type="text" placeholder="Correo electrónico" name="correo">
                     <input type="text" placeholder="Usuario" name="usuario">
                     <input type="password" placeholder="Clave" name="contrasenia">
